@@ -1,0 +1,462 @@
+body{
+	position: relative;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+}
+
+.header {
+	color:#ffffff;
+	background:#ff9912;
+	height:80px;
+	width:100%;
+	margin-top:-20px;
+	position: fixed;
+}
+
+.header div{
+	float: left;
+}
+
+.signup img{
+	height:600px;
+	width: 600px;
+}
+
+.signup {
+	background: #A9F5F2;
+	/*display: block;*/
+}
+
+button{
+	border-radius: 5px;
+	padding: 2px 5px;
+}
+
+/*input{
+	border-radius: 5px;
+}*/
+
+.signupform{
+	margin-left:30%;
+	margin-top: -10px;
+	width: 300px;
+	font-size: 130%;
+}
+
+.signupform p{
+	font-size: 130%;
+}
+.signuptext{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+#footer p {
+	position: absolute;
+	right:5px;
+	bottom: 0;
+    font-size: 80%;
+}
+/*--------------------------------------------*/
+#search{
+	padding: 20px 20px;
+	margin-top: -45px;
+}
+
+#fan{
+	margin-top: -15px;
+	background:#ff9912;
+	height:60px;
+	width:100%;
+	transform: translate(0, 0);
+	filter: alpha (opacity=70);
+	position: fixed;
+}
+
+#fan ul{
+	list-style:none;
+}
+
+#fan ul li{
+    float:left;
+    position:relative;
+}
+
+#fan ul a{
+    text-decoration:none;
+    color:blue;
+    font-size:12px;
+    display:block;
+    padding:0px 50px;
+}
+
+#fan img{
+	width: 30px;
+	height: 30px;
+	color: #ff9912;
+	background:#ff9912;
+	transform: translate(0, 0);
+	filter: alpha (opacity=80);
+}
+
+#fan li ul{
+    position:absolute;
+    display:none;
+    width:150px;
+    background:#ff9912; 
+    padding: 0px 0px;
+}
+
+#fan li ul li{
+	width: 100%;
+	padding: 0px 0px;
+}
+
+#fan li ul a:hover{
+    background:#fff;
+}
+
+#fan li:hover ul{
+    display:block;
+}
+
+.box{
+	height: 30px;
+	width: 400px;
+}
+
+#search input{
+	width: 420px;
+	height: 30px; 
+	border-radius: 5px;
+}
+
+#main{
+	background: #f2f2f2;
+}
+.post{
+	margin-left: 100px;
+	background: #f2f2f2;
+}
+
+.post li{
+	display: inline-block;
+}
+
+.post fieldset{
+	border-radius: 5px;
+	background: #fff;
+	width: 46.5%;
+}
+
+.post textarea{
+	border-radius: 5px;
+}
+
+.post img{
+	margin-top:6px;
+	background-image:#fff;
+	width: 30px;
+	height: 30px; 
+}
+
+.button_post{
+	margin-top: 6px;
+	padding: 5px 20px;
+	background: #ff9912;
+	border-radius: 5px;
+	border-color: #ff9912;
+	color: blue;
+}
+
+
+/*=======================================================*/
+
+.timeline_wall{
+	width: 100%;
+	min-height: 500px;
+	background: #f2f2f2;
+}
+.status{
+	margin-top: 30px;
+	margin-left: 100px;
+	width: 45%;
+	min-height: 200px;
+	background: #fff;
+	border: solid #000 1px;
+	border-radius: 5px; 
+}
+
+.user{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.user span{
+	display: inline-block;
+}
+.user li{
+	margin-left: -40px;
+	margin-top: -5px; 
+	list-style-type: none;
+}
+
+.user img{
+	height: 60px;
+	width: 60px;
+}
+.content{
+	margin-top: -15px;
+	margin-left: 20px;
+	padding-left: 20px;
+	width: 90;
+	max-width: 90%;
+	min-height: 50px;
+	max-height: 600px;
+	border: solid #f2f2f2 2px;
+}
+
+.content img{
+	padding-left: 50px;
+	height: 400px;
+	width: 400px;
+}
+.media-heading{
+	margin-left: 20px;
+}
+
+.reply_form div{
+	margin-left: 20px;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.reply{
+	padding: 3px;
+	background: #ff9912;
+	border-radius: 5px;
+	border-color: #ff9912;
+	color: blue;
+}
+
+.replies table{
+	margin-left: 25px;
+}
+
+.replies table span{
+	margin-left: -5px;
+}
+
+.replies table img{
+	height: 40px;
+	width: 40px;
+	border-radius: 20px; 
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.home_wall{
+	width: 100%;
+	min-height: 600px;
+	background: #f2f2f2;
+}
+
+.cover{
+	margin-left: 100px;
+	width: 65%;
+	height: 250px;
+	background: pink;
+	border-top: 10px;
+	border: solid #fff 20px;
+}
+
+.avata{
+	margin-left: 20px;
+	margin-top:30px;
+	width: 150px;
+	height: 150px;
+	border: solid #f2f2f2 3px;
+
+}
+
+.cover_photo div{
+	display: inline-block;
+}
+.avata img{
+	width: 150px;
+	height: 150px;
+}
+
+.username{
+	width: 100px;
+	height: 20px;
+	padding-left: 3px; 
+}
+
+.show_friends{
+	width: 25%;
+	min-height: 150px;
+	float: right;
+}
+
+.my_friends{
+	margin-top: 20px;
+	padding-left: 20px;
+	min-height: 300px;
+	border: solid #fff 2px;
+}
+
+.show_friends img{
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+}
+
+.my_friends ul li{
+	list-style-type: none;
+}
+
+.my_friends li div{
+	display: inline-block;
+}
+
+
+/*======================================================================*/
+
+.wall{
+	width: 100%;
+	min-height: 620px;
+	background: #f2f2f2;
+}
+
+.find{
+	margin-left: 120px;
+	width: 50%;
+	height: 100%;
+	min-height: 200px;
+	background: #fff;
+	border: solid #fff 2px;
+	padding-bottom: 30px;
+}
+
+.findlist {
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 90%;
+	height: 100px;
+	background: #fff ;
+	border: solid #f2f2f2 2px;
+}
+
+.findlist span{
+	display: inline-block;
+}
+
+.avata_photo_{
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 100px;
+	width: 40%;
+}
+.avata_photo_ img{
+	height: 70px;
+	width: 70px;
+	border-radius: 40px; 
+}
+
+.request{
+	height: 80px;
+	width: 200px;
+	float: right;
+}
+
+.request span{
+	display: inline-block;
+}
+
+.request input{
+	margin-top: 30px;
+}
+
+.request button{
+	margin-top: 30px;
+}
+.online_button{
+	background: green;
+	width: 10px;
+	height: 10px;
+	border-radius: 3px;
+}
+.offline_button{
+	background: red;
+	width: 10px;
+	height: 10px;
+	border-radius: 3px;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.is_friends{
+	/*height: 50px;
+	width: 300px;*/
+	margin-left: 400px;
+	margin-top: -10px;
+}
+
+.is_friends div{
+	display: inline-block;
+}
+
+.add_request{
+	background: blue;
+	padding: 5px;
+	margin-left: 100px;
+	color: #fff;
+}
+
+.cancel_request{
+	background: #cf0000;
+	padding: 5px;
+	margin-left: 50px;
+	color: #fff;
+}
+
+.accept_request{
+	background: blue;
+	padding: 5px;
+	margin-left: 50px;
+	color: #fff;
+}
+
+/*********************************************************************/
+
+#edit_profile{
+	height: 30px;
+	width: 500px;
+	font-size: 20px;
+	margin-left: 200px;
+}
+
+.update{
+	width: 70%;
+	margin-left: 200px;
+}
+
+.update label{
+	font-weight:bold;
+}
+
+.update input{
+	margin-top: -10px;
+	width: 50%;
+	height: 30px;
+	border-radius: 5px;
+	background: #ffffff;
+}
+
+.update button{
+	padding:5px 10px;
+	color: blue;
+	background: #ff9912;
+	border: solid #ff9912 1px; 
+}
